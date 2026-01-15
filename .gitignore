@@ -1,0 +1,51 @@
+# ----------------------------
+# Nim build artifacts
+# ----------------------------
+nimcache/
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+*.pdb
+*.lib
+*.out
+
+# Common output binaries (adjust if you rename)
+bsig
+!src/bsig.nim
+
+# If you produce a dist/ or build/ directory
+build/
+dist/
+
+# ----------------------------
+# OS / tooling junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Editor / IDE
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# Local config (optional)
+# Keep the example config tracked if you provide one.
+# ----------------------------
+default.yml
+default.yaml
+!.github/
